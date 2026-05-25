@@ -1,50 +1,100 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>tigela.top</title>
-
-  <meta name="description" content="Bio">
-
-  <link rel="icon" href="a.jpg" type="image/jpg">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-  <meta property="og:title" content="tigela.top">
-  <meta property="og:description" content="xd">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="https://example.com/path-to-image.jpg">
-
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@300;400;500;600&display=swap">
-
-  <link rel="stylesheet" href="assets/styles.css">
-</head>
-
-<body oncontextmenu="return false">
-
-  <div class="loader" id="loader">
-    <div class="spinner"></div>
-  </div>
-
-  <section id="confirmacao">
-    <button onclick="entrar()" id="enterBtn">
-      click to enter...
-    </button>
-  </section>
-
-  <main id="site">
-    <audio id="audio" loop src="musica.mp3"></audio>
-    <div id="profilesContainer"></div>
-  </main>
-
-  <script src="assets/script.js"></script>
-
-  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" crossorigin="anonymous"></script>
-
-  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" crossorigin="anonymous"></script>
-
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"3f39f7fe84454b3582c4ad368ab92ed8","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
-</body>
+</title> 
+  <meta name="description" content="Small personal website for links and projects."> 
+  <meta property="og:title" content="tigela.top"> 
+  <meta property="og:description" content="Links, projects, and small services."> 
+  <meta property="og:type" content="website"> 
+  <meta name="theme-color" content="#0b0d0e"> 
+  <link rel="stylesheet" href="assets/styles.css"> 
+</head> 
+<body> 
+  <main class="term" aria-label="tigela.top terminal page"> 
+    <header class="site-head"> 
+      <pre class="banner" aria-label="tigela.top"> _   _            _          _ 
+| |_(_) __ _  ___| | __ _   | |_ ___  _ __ 
+| __| |/ _` |/ _ \ |/ _` |  | __/ _ \| `_ \ 
+| |_| | (_| |  __/ | (_| | _| || (_) | |_) | 
+ \__|_|\__, |\___|_|\__,_|(_)\__\___/| .__/ 
+       |___/                         |_|     </pre> 
+      <p class="tagline">small personal site / public links / low noise</p> 
+    </header> 
+ 
+    <section class="prompt" aria-labelledby="about-title"> 
+      <h1 id="about-title"><span>$</span> whoami</h1> 
+      <p> 
+        This is a small personal website for links and projects. 
+        In Brazil, "tigela" means bowl. 
+      </p> 
+    </section> 
+ 
+    <section class="prompt" aria-labelledby="links-title"> 
+      <h2 id="links-title"><span>$</span> contacts</h2> 
+      <table> 
+        <tbody> 
+          <tr> 
+            <th scope="row">telegram</th> 
+            <td><a href="https://t.me/trwste">t.me/trwste</a></td> 
+          </tr> 
+        </tbody> 
+      </table> 
+    </section> 
+ 
+    <section class="prompt" aria-labelledby="projects-title"> 
+      <h2 id="projects-title"><span>$</span> projects</h2> 
+      <div class="service-list"> 
+        <article> 
+          <h3>Matrix homeserver</h3> 
+          <p>Small private Matrix server for independent messaging. Accounts are not public signup.</p> 
+          <p>homeserver: <code>tigela.top</code></p> 
+        </article> 
+      </div> 
+    </section> 
+ 
+    <section class="prompt" aria-labelledby="degoogle-title"> 
+      <h2 id="degoogle-title"><span>$</span> degoogle</h2> 
+      <table> 
+        <tbody> 
+          <tr> 
+            <th scope="row">channel</th> 
+            <td> 
+              <a href="https://t.me/degoogl">t.me/degoogl</a><br> 
+              news and links about Android alternatives, privacy tools, open-source apps, and leaving big platforms where it makes sense. 
+            </td> 
+          </tr> 
+          <tr> 
+            <th scope="row">chat</th> 
+            <td> 
+              <a href="https://t.me/degooglechat">t.me/degooglechat</a><br> 
+              public chat for questions, app swaps, ROMs, DNS, self-hosting, and practical privacy setups. 
+            </td> 
+          </tr> 
+        </tbody> 
+      </table> 
+    </section> 
+ 
+    <section class="prompt" aria-labelledby="status-title"> 
+      <h2 id="status-title"><span>$</span> status</h2> 
+      <table> 
+        <tbody> 
+          <tr> 
+            <th scope="row">host</th> 
+            <td>self-hosted</td> 
+          </tr> 
+          <tr> 
+            <th scope="row">web</th> 
+            <td>caddy -> apache</td> 
+          </tr> 
+          <tr> 
+            <th scope="row">updated</th> 
+            <td><time datetime="2026-05-24">2026-05-24</time></td> 
+          </tr> 
+        </tbody> 
+      </table> 
+    </section> 
+ 
+    <footer> 
+      <p>served by tigela.top :: static html, caddy, apache</p> 
+    </footer> 
+  </main> 
+  <script src="assets/script.js"></script> 
+</body> 
 </html>
