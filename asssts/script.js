@@ -1,2 +1,1 @@
-document.documentElement.classList.add("js");  
-sec@tigela:~/containers/apache/htd
+document.documentElement.classList.add("js"); 
