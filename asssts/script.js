@@ -1,3 +1,2 @@
-document.documentElement.classList.add("js"); 
- 
-sec@tigela:~/containers/apache/htdo
+document.documentElement.classList.add("js");  
+sec@tigela:~/containers/apache/htd
